@@ -4,7 +4,7 @@ public class Lab4Demo {
     public static void main(String[] args) {
         Scanner keyboard = new Scanner(System.in);
         String input = "Initialized"; //initialized variable
-        do {
+        do { //repeating until program is terminated
             System.out.println("Pomona Transit System Main Menu");
             System.out.println("Enter 'q' to exit the program:");
             System.out.println("1) Display Schedule");
