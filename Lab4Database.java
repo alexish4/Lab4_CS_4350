@@ -330,6 +330,7 @@ public class Lab4Database {
             String scheduled_arrival_time = rs.getString("tt.scheduled_arrival_time");
             String driver_name = rs.getString("tt.driver_name");
             String bus_id = rs.getString("tt.bus_id");
+            date = rs.getString("tt.date");
     
             System.out.format("%13s %11s %10s %18s %20s %12s %5s\n", startLocationName, destinationName,
             date, scheduled_start_time, scheduled_arrival_time, driver_name, bus_id);
